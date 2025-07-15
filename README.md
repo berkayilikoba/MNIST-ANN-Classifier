@@ -29,3 +29,10 @@ You can install the dependencies using:
 
 ```bash
 pip install -r requirements.txt
+
+## Usage
+
+### Train the model:
+
+```bash
+python train.py
