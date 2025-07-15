@@ -33,13 +33,7 @@ Run the scripts in the following order:
 2. **train.py** — Loads data, trains the model, and saves the best model.  
 3. **predict.py** — Loads the saved model, performs predictions on test data, and visualizes results.
 
-## Shortcut:
 
-```bash
-pip install -r requirements.txt
-python model.py
-python train.py
-python predict.py
 
 
 
