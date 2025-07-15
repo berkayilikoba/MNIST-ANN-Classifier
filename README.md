@@ -33,13 +33,11 @@ Run the scripts in the following order:
 2. **train.py** — Loads data, trains the model, and saves the best model.  
 3. **predict.py** — Loads the saved model, performs predictions on test data, and visualizes results.
 
-## Train the model:
+## Construct the Model:
 
 ```bash
-python train.py
+python model.py
 
-#License
-This project is open source and free to use under the MIT License.
 
 
 
