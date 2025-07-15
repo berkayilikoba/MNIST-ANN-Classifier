@@ -27,18 +27,16 @@ The MNIST dataset consists of 70,000 grayscale images of handwritten digits (0-9
 
 # Usage
 
+Run the scripts in the following order:
+
+1. **model.py** — Defines the ANN model architecture.  
+2. **train.py** — Loads data, trains the model, and saves the best model.  
+3. **predict.py** — Loads the saved model, performs predictions on test data, and visualizes results.
+
 ## Train the model:
+
+```bash
 python train.py
-
-## Evaluate and visualize the results:
-python evaluate.py
-
-
-# File Structure
-model.py: Contains the ANN model architecture.
-train.py: Loads data, trains the model, and saves the best model.
-evaluate.py: Loads the saved model, predicts on test data, and shows metrics and confusion matrix.
-requirements.txt: Python dependencies list.
 
 #License
 This project is open source and free to use under the MIT License.
