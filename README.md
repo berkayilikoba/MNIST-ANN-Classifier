@@ -30,7 +30,7 @@ The MNIST dataset consists of 70,000 grayscale images of handwritten digits (0-9
 ## Train the model:
 python train.py
 
-##Evaluate and visualize the results:
+## Evaluate and visualize the results:
 python evaluate.py
 
 
